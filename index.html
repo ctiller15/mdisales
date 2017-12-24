@@ -2,10 +2,13 @@
 <html>
 	<head>
 		<title>MDI sales</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
 		
 <!-- Insert header here -->
+	<div class="container">
 		<header>
 			<div class="brand">
 				MDI
@@ -22,7 +25,7 @@
 		
 <!--	Insert Banner here	-->
 		<div class="banner">
-			This is a banner image
+			<img src="./assets/banner_main.jpg" alt="mdi sales banner">
 		</div>
 		
 		<div class="social">
@@ -33,48 +36,97 @@
 		</div>
 		
 		<div class="row">
-			<div class="contact">
-			
+			<div class="contact col-lg-3">
+				<div>
+					<h4>Call Us:</h4>
+				</div>
+				<div>
+					<h4>Get Free Quote:</h4>
+				</div>
+				<div>
+					<h4>Hours:</h4>
+				</div>
 			</div>
-			<div class="products">
+			<div class="products col-lg-4">
 				<h2>What mdi can do for you</h2>
+				<p>Our Expert sales team is dedicated to learning the ins and outs of our products through regular training sessions and hands-on experience. We take the time to get to know your needs in order to provide your business with the best possible solution. Take a look at all of the Industries and Products which mdi serves!</p>
 			</div>
-			<div class="careers">
+			<div class="careers col-lg-4">
 				<h2>Careers at mdi</h2>
+				<p>Join the mdi team and become a part of a fast-paced and quickly growing family company. See what positions are available and apply online.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="branch-text">
-			
+			<div class="branch-text col-lg-6">
+				<h3>mdi Houston Branch Grand Opening!</h3>
+				<p>To better serve our customers, Manufacturers Distributor, Inc. (mdi) is proud to announce the opening of our Houston Branch. The new facility is the second warehouse in North America for mdi which operates in Tampa, Florida; the corporate headquarters.</p>
+
+				<p>"This second warehouse greatly enhances our ability to provide our customers with the Transair Aluminum Pipe products they want, when they want them", says Sam Arledge, President of mdi. "It also shows our commitment to improving our already exceptional customer service. We will continue to invest in infrastructure and logistics to maximize our capability to perform as the leading distributor of Transair Aluminum Pipe products", continues Arledge.</p>
+
+				<p>This state-of-the-art office and warehouse is conveniently located in the Energy Corridor in Katy, Texas to better service our customers by providing shorter shipping times as well as increasing inventory and product availability to the Gulf Coast region and surrounding areas of the U.S. Other quality products distributed by mdi include industrial fire fighting equipment, oil-less air compressors, vacuum pumps, electric and hydraulic winches, electric motors, hose reels, tube expanders and pneumatic tools.</p>
+
+				<p>Contact mdi in Houston at 281-769-1717 or sales@mdisales.com.</p>
 			</div>
-			<div class="branch-photo">
-			
+			<div class="branch-photo col-lg-6">
+				<img src="./assets/mdi-houston.jpg" alt="The mdi Houston Branch">
 			</div>
 		</div>
 		
 		<div class="row">
-			<div class="in-touch contact">
+			<div class="in-touch contact col-lg-12">
 				<h2>Get in touch with an mdi Product Sales rep!</h2>
+				<hr>
+				<p>We want you to be able to get help from a mdi rep at your convenience. That's why we provide different ways for you to contact us.</p>
+			</div>
+			<div class="col-lg-6">
+				<button class="btn btn-lg">
+					Email
+				</button>
+			</div>
+			<div class="col-lg-6">
+				<button class="btn btn-lg">
+					Call Us
+				</button>
 			</div>
 		</div>
 		
 		<div class="row">
-			<a class="academy">
-				<div>MDI academy</div>
+			<a href="#" class="academy col-lg-12">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="./assets/mdi-academy-negative.png">
+					</div>					
+					<div class="col-lg-6">
+						<h4>mdi Academy</h4>
+						<hr>
+						<p>Training you to get more out of our products.</p>
+						<p>At mdi, we strive to keep our team knowledgeable about all of our Products. We want to empower you by extending this knowledge. This section includes our product training to date.</p>
+					</div>
+				</div>
+
 			</a>
 		</div>
 		
-		<div class="row literature">
-			<div>mdi Linesheet</div>
-			<div>mdi Solutions</div>
-			<div>mdi fire</div>
-			<div>mdi Air</div>
+		<div class="row" id="literature">
+			<h2 class="col-lg-12 text-center">mdi Literature</h2>
+			<div class="col-lg-6 literature">mdi Linesheet</div>
+			<div class="col-lg-6 literature">mdi Solutions</div>
+			<div class="col-lg-6 literature">mdi fire</div>
+			<div class="col-lg-6 literature">mdi Air</div>
 		</div>
 		
 		<div class="foot">
 			<div class="row">
-				<div>BBB</div>
-				<div>copyright</div>			
+				
+				<div class="col-xs-6">
+					<a href="#" target="_blank">
+						<img src="./assets/BBB-seal.png" alt="The seal for mdi sales inc">
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<p>Content © Copyright 2017 | mdi - Manufacturers Distributor, Inc.
+					Site Use Acknowledges Acceptance of our Privacy Statement and our Terms and Conditions</p>
+				</div>			
 			</div>
 		</div>
 		
@@ -92,6 +144,12 @@
 				<div>youtube</div>
 			</div>
 		</footer>
+		</div>
 		
 	</body>
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

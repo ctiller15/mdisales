@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.banner img{
+	width: 100%;
+	height: auto;
+}
+
+.branch-photo img{
+	width: 100%;
+	height: auto;
+}
+
+.academy{
+	border: 1px solid black;
+	background: gray;
+}
+
+.literature{
+	margin-top: 100px;
+	height: 200px;
+	border: 1px solid red;
+}
