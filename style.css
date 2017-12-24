@@ -1,5 +1,9 @@
 /* CSS Document */
 
+.banner{
+	margin-top: 100px;
+}
+
 .banner img{
 	width: 100%;
 	height: auto;

@@ -8,21 +8,46 @@
 	<body>
 		
 <!-- Insert header here -->
-	<div class="container">
-		<header>
-			<div class="brand">
-				MDI
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				
+<!--Classes focused on mobile.-->
+				<div class="navbar-header">
+				  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				  	</button>
+				  	<a class="navbar-brand" href="#">MDI</a>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  	<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Training</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</div>
 			</div>
-			<nav>
-				<ul>
-					<li>Products</li>
-					<li>Training</li>
-					<li>About</li>
-					<li>Contact</li>
-				</ul>
-			</nav>
-		</header>
-		
+		</nav>
+	</header>
+
+	<div class="container">
 <!--	Insert Banner here	-->
 		<div class="banner">
 			<img src="./assets/banner_main.jpg" alt="mdi sales banner">
@@ -94,7 +119,7 @@
 			<a href="#" class="academy col-lg-12">
 				<div class="row">
 					<div class="col-lg-6">
-						<img src="./assets/mdi-academy-negative.png">
+						<img src="./assets/mdi-academy-negative.png" alt="mdi academy">
 					</div>					
 					<div class="col-lg-6">
 						<h4>mdi Academy</h4>
@@ -109,10 +134,22 @@
 		
 		<div class="row" id="literature">
 			<h2 class="col-lg-12 text-center">mdi Literature</h2>
-			<div class="col-lg-6 literature">mdi Linesheet</div>
-			<div class="col-lg-6 literature">mdi Solutions</div>
-			<div class="col-lg-6 literature">mdi fire</div>
-			<div class="col-lg-6 literature">mdi Air</div>
+			<div class="col-lg-6 literature">
+				<div>Insert PDF here</div>
+				<h4>mdi Linesheet</h4>
+			</div>
+			<div class="col-lg-6 literature">
+				<div>Insert PDF here</div>
+				<h4>mdi Solutions</h4>
+			</div>
+			<div class="col-lg-6 literature">			<div>Insert PDF here</div>
+				<h4>mdi Fire</h4>
+			</div>
+			<div class="col-lg-6 literature">
+				<div>Insert PDF here</div>
+				<h4>mdi Air</h4>
+			</div>
+
 		</div>
 		
 		<div class="foot">
