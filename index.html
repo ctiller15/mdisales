@@ -4,6 +4,7 @@
 		<title>MDI sales</title>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="./style.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	</head>
 	<body>
 		
@@ -20,7 +21,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 				  	</button>
-				  	<a class="navbar-brand" href="#">MDI</a>
+				  	<a class="navbar-brand" href="#">
+						<img src="./assets/mdi-logo.png" alt="mdiSales.com">
+					</a>
 				</div>
 				
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -29,13 +32,19 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">One more separated link</a></li>
+								<li><a href="#">All</a></li>
+								<li><a href="#">Compressed air pipe</a></li>
+								<li><a href="#">Air Compressors</a></li>
+								<li><a href="#">Compressed Air Dryers</a></li>
+								<li><a href="#">Pneumatic Tools</a></li>
+								<li><a href="#">Electric Motors</a></li>
+								<li><a href="#">Cranes &amp; Winches</a></li>
+								<li><a href="#">Firefighting Equipment</a></li>
+								<li><a href="#">Hose/Cable Reels</a></li>
+								<li><a href="#">Lubrication Equipment</a></li>
+								<li><a href="#">Filtration &amp; Strainers</a></li>
+								<li><a href="#">Tube Service</a></li>
+								<li><a href="#">Fuel Pumps &amp; Meters</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Training</a></li>
@@ -62,29 +71,42 @@
 		
 		<div class="row">
 			<div class="contact col-lg-3">
-				<div>
-					<h4>Call Us:</h4>
-					<p>(727) 847 - 4900</p>
+				<div class="row">
+					<div class="col-xs-3">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-9">
+						<h4>Call Us:</h4>
+						<p>(727) 847 - 4900</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-9">
+						<h4>Get Free Quote:</h4>
+						<a href="#">Contact Form</a>
+					</div>
 				</div>
 				<div>
-					<h4>Get Free Quote:</h4>
-					<a href="#">Contact Form</a>
-				</div>
-				<div>
-					<h4>Hours:</h4>
-					<p>7:30AM - 5:30PM ET</p>
-					<p>Monday - Friday</p>
+					<h4 class="text-center"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>Hours:</h4>
+					<p class="text-center">7:30AM - 5:30PM ET</p>
+					<p class="text-center">Monday - Friday</p>
 				</div>
 			</div>
 			<div class="products col-lg-4">
-				<h2>What mdi can do for you</h2>
-				<p>Our Expert sales team is dedicated to learning the ins and outs of our products through regular training sessions and hands-on experience. We take the time to get to know your needs in order to provide your business with the best possible solution. Take a look at all of the Industries and Products which mdi serves!</p>
-				
+				<div class="info">
+					<h2>What mdi can do for you</h2>
+					<p>Our Expert sales team is dedicated to learning the ins and outs of our products through regular training sessions and hands-on experience. We take the time to get to know your needs in order to provide your business with the best possible solution. Take a look at all of the Industries and Products which mdi serves!</p>
+				</div>				
 				<a class="btn btn-lg btn-default" href="#">Product Line</a>
 			</div>
 			<div class="careers col-lg-4">
-				<h2>Careers at mdi</h2>
-				<p>Join the mdi team and become a part of a fast-paced and quickly growing family company. See what positions are available and apply online.</p>
+				<div class="info">
+					<h2>Careers at mdi</h2>
+					<p>Join the mdi team and become a part of a fast-paced and quickly growing family company. See what positions are available and apply online.</p>
+				</div>
 				<a class="btn btn-lg btn-default" href="#">Careers</a>
 			</div>
 		</div>
@@ -109,7 +131,7 @@
 		
 		<div class="row">
 			<div class="in-touch contact col-lg-12">
-				<h2>Get in touch with an mdi Product Sales rep!</h2>
+				<h2>Get in touch with an mdi Product Expert</h2>
 				<hr>
 				<p>We want you to be able to get help from a mdi rep at your convenience. That's why we provide different ways for you to contact us.</p>
 			</div>
@@ -127,22 +149,19 @@
 			</div>
 		</div>
 		
-		<div class="row">
-			<a href="#" class="academy col-lg-12">
-				<div class="row">
-					<div class="col-lg-6">
-						<img src="./assets/mdi-academy-negative.png" alt="mdi academy">
-					</div>					
-					<div class="col-lg-6">
-						<h4>mdi Academy</h4>
-						<hr>
-						<p>Training you to get more out of our products.</p>
-						<p>At mdi, we strive to keep our team knowledgeable about all of our Products. We want to empower you by extending this knowledge. This section includes our product training to date.</p>
-					</div>
+		<a href="#" class="academy">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="./assets/mdi-academy-negative.png" alt="mdi academy">
+				</div>					
+				<div class="col-lg-6">
+					<h4>mdi Academy</h4>
+					<hr>
+					<p>Training you to get more out of our products.</p>
+					<p>At mdi, we strive to keep our team knowledgeable about all of our Products. We want to empower you by extending this knowledge. This section includes our product training to date.</p>
 				</div>
-
-			</a>
-		</div>
+			</div>
+		</a>
 		
 		<div class="row" id="literature">
 			<h2 class="col-lg-12 text-center">mdi Literature</h2>
@@ -150,28 +169,32 @@
 			
 			<div class="col-lg-6 literature">
 				<a href="assets/Linesheet_mdi.pdf">
-					<h4>mdi Linesheet</h4>
+					<img class="img-responsive" src="assets/linesheet.png" alt="mdi linesheet">
+					<h4>mdi Linesheet 620kb</h4>
 				</a>
 				<p>mdi Linesheet provides an overview of the great Product Lines we distribute.</p>
 			</div>
 			
 			<div class="col-lg-6 literature">
 				<a href="assets/mdi-solutions.pdf">
-					<h4>mdi Solutions</h4>
+					<img class="img-responsive" src="assets/mdisolutions.png" alt="mdi solutions">
+					<h4>mdi Solutions 3251kb</h4>
 				</a>
 				<p>mdi Solutions shows industries we serve and how our products work together to empower industry.</p>
 			</div>
 			
 			<div class="col-lg-6 literature">
 				<a href="assets/mdiFire.pdf">
-					<h4>mdi Fire</h4>
+					<img class="img-responsive" src="assets/mdifire.png" alt="mdi fire">
+					<h4>mdi Fire 1957kb</h4>
 				</a>
 				<p>mdi Fire showcases our Product Lines which serve the Municipal and Industrial Fire Protection markets.</p>
 			</div>
 			
 			<div class="col-lg-6 literature">
 				<a href="assets/mdiAir.pdf">
-					<h4>mdi Air</h4>
+					<img class="img-responsive" src="assets/mdiair.png" alt="mdi air">
+					<h4>mdi Air 8870kb</h4>
 				</a>
 				<p>mdi Air showcases our all-inclusive line of Compressed Air products.</p>
 			</div>
