@@ -1,11 +1,36 @@
 /* CSS Document */
 
+body{
+	background: url(./assets/gears.png) fixed center center, url(./assets/grid.png) fixed repeat-x, #C1C1C1;
+}
+
+.navbar-brand{
+	height: 100%;
+}
+
+div.navbar-header{
+	height: 70px;
+}
+
+.navbar-toggle{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.red{
+	color: red;
+}
+
 li {
 	list-style: none;
 }
 
+.container{
+	background: white;
+}
+
 .banner{
-	margin-top: 100px;
+	margin-top: 70px;
 }
 
 .banner img{
@@ -13,23 +38,65 @@ li {
 	height: auto;
 }
 
-div .social{
+div.social{
 	display: flex;
 	justify-content: flex-end;
+	background: #F5F5F5;
 }
 
-div .social ul {
+div.social ul {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
 }
 
 .social li {
 	margin-right: 20px;
 }
 
+.social .fa{
+	font-size: 2em;
+}
+
 .row.col-xs-4{
 	padding: 0;
 	margin: 0;
+}
+
+.contact .col-xs-4{
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+.contact .col-xs-4 h4{
+	font-size: 1em;
+}
+
+div.col-sm-3.icon{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.fa.fa-phone, .fa.fa-envelope{
+	font-size: 2em;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.fa.fa-phone:before, .fa.fa-envelope:before{
+	margin: 10px 0px;
+}
+
+div.col-sm-9, div.col-sm-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div.col-sm-9 p, div.col-sm-12 p{
+	margin-bottom: 0;
 }
 
 .info {
@@ -38,8 +105,16 @@ div .social ul {
 
 .btn{
 	width: 50%;
-	display: block;
 	margin: 0 auto;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: red;
+	border-radius: 0;
+	border: 5px outset red;
 }
 
 .branch-photo {
