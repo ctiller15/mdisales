@@ -27,6 +27,11 @@ div.navbar-header{
 	color: red;
 }
 
+a.red{
+	display: flex;
+	justify-content: center;
+}
+
 li {
 	list-style: none;
 }
@@ -84,7 +89,7 @@ div.col-sm-3.icon{
 	padding-right: 0px;
 }
 
-.fa.fa-phone, .fa.fa-envelope{
+.icon .fa.fa-phone, .icon .fa.fa-envelope{
 	font-size: 2em;
 	background-color: lightblue;
 	display: flex;
@@ -92,7 +97,7 @@ div.col-sm-3.icon{
 	color: white;
 }
 
-.fa.fa-phone:before, .fa.fa-envelope:before{
+.icon .fa.fa-phone:before, .icon .fa.fa-envelope:before{
 	margin: 10px 0px;
 }
 
@@ -125,6 +130,10 @@ div.col-sm-9 p, div.col-sm-12 p{
 	font-size: 2em;
 	white-space: pre-wrap;
 	margin-bottom: 5px;
+}
+
+.btn .fa{
+	font-size: .8em;
 }
 
 .branch-photo {
@@ -164,6 +173,15 @@ div.col-sm-9 p, div.col-sm-12 p{
 	background: gray;
 	border: 12px inset brown;
 	margin: 10px;
+}
+
+.academy h4{
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.academy hr{
+	margin-top: 10px;
 }
 
 .academy a:hover{
