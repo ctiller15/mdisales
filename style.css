@@ -277,6 +277,14 @@ footer li{
 	justify-content: space-around;
 }
 
+footer p{
+	padding: 20px;
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	color: white;
+}
+
 @media screen and (min-width: 768px){
 	.info{
 		height: 300px;
