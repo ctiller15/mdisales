@@ -5,7 +5,7 @@ body{
 }
 
 .navbar-default{
-	background: #5E5E5E;
+	background: url(./assets/perforation.png) repeat-x, #5E5E5E;
 	color: white;
 	border-color: #5D5D5D;
 }
@@ -18,9 +18,17 @@ div.navbar-header{
 	height: 70px;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+	color: #ddd;
+}
+
 .navbar-toggle{
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #FFFFFF;
 }
 
 .red{
@@ -124,9 +132,14 @@ div.col-sm-9 p, div.col-sm-12 p{
 	flex-wrap: wrap;
 	color: #FFFFFF;
 	font-weight: bold;
-	background-color: red;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
 	border-radius: 0;
-	border: 3px outset red;
+	border: 3px outset #FF3019;
 	font-size: 2em;
 	white-space: pre-wrap;
 	margin-bottom: 5px;
@@ -146,7 +159,7 @@ div.col-sm-9 p, div.col-sm-12 p{
 }
 
 .in-touch, .lit-wrap{
-	background: red;
+	background: url(./assets/stripes.png) center center repeat, #b51b1e;
 	color: white;
 	padding: 10px 20px;
 	margin-bottom: 15px;
@@ -170,9 +183,10 @@ div.col-sm-9 p, div.col-sm-12 p{
 }
 
 .academy .row {
-	background: gray;
-	border: 12px inset brown;
+	background: #1B1B1B;
+	border: 12px inset #AB782C;
 	margin: 10px;
+	opacity: inherit;
 }
 
 .academy h4{
@@ -184,9 +198,10 @@ div.col-sm-9 p, div.col-sm-12 p{
 	margin-top: 10px;
 }
 
-.academy a:hover{
+.academy:hover {
 	color: white;
-	text-decoration: underline;
+	text-decoration: none;
+	opacity: .8;
 }
 
 .literature{
@@ -221,12 +236,22 @@ div.col-sm-9 p, div.col-sm-12 p{
 	padding: 5px;
 }
 
+.foot .row{
+	border-top: 1px solid #DDDDDD;
+	background: #F5F5F5;
+	padding: 20px;
+}
+
+footer{
+	margin-top: 30px;
+}
+
 footer .container{
 	padding: 10px;
 }
 
 footer, footer .container{
-	background: #636363;
+	background: url(./assets/footer-grid.png) repeat, #636363;
 }
 
 footer h4{
